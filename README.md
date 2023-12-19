@@ -1,0 +1,1 @@
+This bot aims to provide a /getmodule command for discord servers to get module information from NUS mods.
