@@ -4,6 +4,7 @@
 		"dotenv": "^16.3.1"
 	},
 	"devDependencies": {
+		"@tsconfig/recommended": "^1.0.3",
 		"@typescript-eslint/eslint-plugin": "^6.15.0",
 		"@typescript-eslint/parser": "^6.15.0",
 		"eslint": "^8.56.0",
@@ -12,6 +13,7 @@
 		"typescript": "^5.3.3"
 	},
 	"scripts": {
-		"start": "pnpm exec nodemon ./src/app.ts"
+		"start": "pnpm exec nodemon ./src/app.ts",
+		"build": "pnpm exec tsc"
 	}
 }
