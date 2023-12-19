@@ -1,4 +1,4 @@
-FROM node:latest as build
+FROM node:bookworm-slim as build
 
 RUN npm install -g pnpm
 RUN mkdir -p /usr/src/bot
